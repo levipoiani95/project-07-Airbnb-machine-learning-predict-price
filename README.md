@@ -1,4 +1,5 @@
 # 📊 Airbnb Housing Prediction for the city of Rio de Janeiro.
+A complete Python Data Science project focused on statistical modeling, machine learning, and data visualization.
 ## 💭 Context  
 On Airbnb, anyone who owns a room or property of any type (apartment, house, chalet, guesthouse, etc.) can offer their property for daily rental.You create your host profile (the person who makes a property available for daily rental) and create your property listing.
 In this listing, the host should describe the property's characteristics as completely as possible, in order to help renters/travelers choose the best property for them (and to make their listing more attractive). 
@@ -21,7 +22,11 @@ The application consumes financial market data through the yfinance library, per
 - Python (3.13.5)
 - Pandas (data manipulation and analysis)
 - NumPy (numerical operations)
-- PathLib (date and calculations processing)
+- PathLib (file and directory manipulation)
+- Seaborn (visualization of statistical data)
+- Pyplot/Matplotlib (data visualization)
+- PlotlyExpress (high-level API for creating data maps)
+- Scikit-Learn (Machine Learning Models, evaluation metrics)
 
 
 ## ⚙️Demonstrated skills
@@ -31,20 +36,11 @@ The application consumes financial market data through the yfinance library, per
 - Code organization and best practices
 - Analytical thinking applied to market data
 
-This project was developed for technical portfolio purposes, focusing on demonstrating practical skills in Python, Streamlit, and financial data visualization.
-## 🔗 Tutorial and Link to acces my dashboard - Follow the arrow at images
-### 🌐 https://project-02-web-dash-finance.streamlit.app/
 
-#### 1. Wake up page clicking on blue button, if necessary:
-
-#### 2. After entering the main page, select the tickers that you want to show on chart.
 > [!WARNING]
-> Don't select all tickets, because the page may become slow and take a long time to load.
-
-#### 3. Now, select the period that you want to show.
 
 > [!NOTE]
-> After selecting some tickets, the percentage of the tickets's growth or decline will be displayed at the bottom of page. Note that if ticket was created during the chosen period, the percentage of growth or decline will not be displayed.
+
 
 
 
