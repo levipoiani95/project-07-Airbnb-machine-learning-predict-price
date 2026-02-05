@@ -1,4 +1,4 @@
-# 📊 Airbnb Housing Prediction for the city of Rio de Janeiro.
+# 📊 Airbnb Housing Prediction for the city of Rio de Janeiro. 
 A complete Python Data Science project focused on statistical modeling, machine learning, and data visualization.
 ## 💭 Context  
 On Airbnb, anyone who owns a room or property of any type (apartment, house, chalet, guesthouse, etc.) can offer their property for daily rental.You create your host profile (the person who makes a property available for daily rental) and create your property listing.
