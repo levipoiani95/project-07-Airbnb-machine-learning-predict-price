@@ -101,7 +101,7 @@ Models were evaluated using the following regression metrics
 - Creation of a Streamlit or Flask app
 
 This project was developed as a Data Science and Machine Learning portfolio project, using Python and Scikit-Learn.
-Check JupyterNotebook at this repository to know more about my project. 
+Check JupyterNotebook at this repository to know more about my project.  
 Thanks a lot! I Hope you enjoy! 🚀
 
 
