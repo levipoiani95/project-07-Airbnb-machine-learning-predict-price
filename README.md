@@ -14,7 +14,7 @@ The data was retrieved from the Kaggle website: https://www.kaggle.com/allanbrun
 The data contains the prices of properties and their respective characteristics for each month.
 Prices are given in Brazilian Reais (R$) and the data covers the period from April 2018 to May 2020, with the exception of June 2018, which does not have data available.
 The application consumes financial market data through the yfinance library, performs processing and manipulation with Pandas and NumPy, and uses native modules such as datetime and math for calculations, temporal organization, and financial metrics. The data is presented in a clear, interactive, and analysis-oriented way.
-##  Initial Expectations  
+## ✏️ Initial Expectations  
 - Seasonality can be an important factor, as months like December tend to be quite expensive in Rio de Janeiro.
 - The location of the property should make a big difference in the price, since in Rio de Janeiro the location can completely change the characteristics of the place (security, natural beauty, tourist attractions).
 - Extras and amenities can be factors that contribute to a significant impact on the price, since we have many old buildings and houses in Rio de Janeiro.
@@ -28,7 +28,7 @@ The application consumes financial market data through the yfinance library, per
 - Seaborn (exploratory data analysis and statistical visualization)
 - Pyplot/Matplotlib (data visualization support)
 - PlotlyExpress (high-level API for creating data maps)
-- Scikit-Learn (Machine Learning Models, evaluation metrics)
+- Scikit-Learn (machine Learning Models, evaluation metrics)
 
 ## 📅 Development Steps  
 1. Understanding the Challenge
@@ -46,33 +46,33 @@ Seaborn was used extensively to:
 - Analyze correlations between variables
 - Detect outliers and patterns
 - Visualize relationships between features and the target variable
-- Help guide feature selection and model choice.
+- Help guide feature selection and model choice
 
 ## 🤖 Machine Learning Models  
-The following supervised regression models were implemented and compared using Scikit-Learn library.
+The following supervised regression models were implemented and compared using Scikit-Learn library
 
 ### 1. Linear Regression  
-- A baseline statistical model that assumes a linear relationship between features and the target variable.
+- A baseline statistical model that assumes a linear relationship between features and the target variable
 - Simple and interpretable
 - Useful for benchmarking
 - Performs best on linear patterns
 
 ### 2. Random Forest Regressor  
-- An ensemble learning method based on multiple decision trees.
+- An ensemble learning method based on multiple decision trees
 - Reduces overfitting using bagging
 - Captures non-linear relationships
 - Robust to noise and feature interactions
 - Strong generalization performance
 
 ### 3. Extra Trees Regressor (Extremely Randomized Trees)  
-- An ensemble method similar to Random Forest with additional randomness.
+- An ensemble method similar to Random Forest with additional randomness
 - Randomized split selection
 - Faster training in many cases
 - Lower variance compared to standard decision trees
 - Effective for complex datasets
 
 ## 📈 Model Evaluation  
-Models were evaluated using the following regression metrics:
+Models were evaluated using the following regression metrics
 ### 1. R² Score (Coefficient of Determination)  
 - Measures how much variance of the target variable is explained by the model
 - Values closer to 1 indicate better performance
@@ -101,9 +101,8 @@ Models were evaluated using the following regression metrics:
 - Creation of a Streamlit or Flask app
 
 This project was developed as a Data Science and Machine Learning portfolio project, using Python and Scikit-Learn.
-
 Check JupyterNotebook at this repository to know more about my project. 
-Thanks a lot! I Hope you enjoy!🚀
+Thanks a lot! I Hope you enjoy! 🚀
 
 
 
