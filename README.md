@@ -93,6 +93,10 @@ Models were evaluated using the following regression metrics
 - Proper evaluation metrics provide meaningful insights
 - Visualization plays a critical role in understanding data and model behavior
 
+## 📁 Images Folder  
+- At folder named "Maps" in this repository you will find some pictures about the data map at city of Rio de Janeiro
+- The differences between them are the number of points plotted on data map.
+   
 ## 🔮 Future Improvements  
 - Hyperparameter tuning (Grid Search / Random Search)
 - Cross-validation for more robust evaluation
